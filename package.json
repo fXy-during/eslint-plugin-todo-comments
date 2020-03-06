@@ -2,7 +2,7 @@
   "name": "eslint-plugin-todo-comments",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/fXy-during/eslint-plugin-todo-comments.git"
