@@ -1,21 +1,32 @@
 {
   "name": "eslint-plugin-todo-comments",
   "version": "0.0.1",
-  "description": "",
+  "description": "显示并限制你的TODO",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "TODO"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/fXy-during/eslint-plugin-todo-comments.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV_TEST=true mocha tests --recursive"
   },
   "peerDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.9.0",
+    "mocha": "^3.1.2"
   },
   "license": "MIT",
   "dependencies": {
     "ellipsize": "0.0.2",
     "eslint": "^5.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.0",
+    "cross-env": "^7.0.2"
   }
 }
