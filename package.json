@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-todo-comments",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "显示并限制你的TODO",
   "keywords": [
     "eslint",
